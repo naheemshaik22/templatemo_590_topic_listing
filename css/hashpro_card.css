@@ -1,0 +1,107 @@
+.pricing {
+    overflow-x: hidden;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+.pc_container {
+    margin: 0 auto;
+    border-radius: 2rem;
+    padding: 3rem;
+    color: white;
+    width: fit-content;
+    background-image: linear-gradient(198deg, #f8d00d0f, #0a0a0a 80%);
+    border: 3px solid #f8d00d4d;
+    box-shadow: 2px 2px #ffd13000;
+    box-shadow: 0px 0px 15px #f8d00d4d;
+}
+@media only screen and (min-width: 800px)
+{
+.pricing .container .info {
+    padding: 2rem 5rem;
+    scale: 1.1;
+}
+}
+.info {
+    width: fit-content;
+}
+
+.chip {
+    font-size: .9rem;
+    width: fit-content;
+    border-radius: 2rem;
+    color: white;
+    font-weight: 300;
+}
+.pc-h3{
+    margin-top: 20px;
+    font-size: 1.9rem;
+}
+.total_fee_new {
+    color:#f8d00d;
+    text-shadow: 0px 0px 3px #f8d00d;
+    font-size: 1.2rem;
+}
+.total_fee_old {
+    text-decoration: line-through;
+    font-size: .9rem;
+    color: #bcbcbc;
+}
+.pc_h5 {
+    font-weight: 200;
+    margin: 7px 0;
+    font-size: 0.76rem;
+    color: #a0a0a0;
+}
+.points {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.star-info {
+    margin-top: 29px;
+    color: #a1a1a1;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+.pricing_list{
+    padding: 0 13%;
+    background-color: #050505;
+    z-index: 9995;
+    position: relative;
+    font-family: 'Sora', sans-serif;
+}
+.pricing .container .info .points .point img {
+    width: 15px;
+    height: 15px;
+    transform: translateY(2px);
+}
+.point {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 1 0 auto;
+}
+.mx{
+    margin-top: -20px;
+}
+@media only screen and (max-width: 600px)
+{
+.pc_container{
+    padding: 2.5rem;
+}
+}
+@media only screen and (max-width: 600px)
+{
+.pricing_list {
+  
+    padding: 40px 0%;
+}
+}
+@media only screen and (max-width: 1200px)
+{
+.pricing {
+    max-width: 100%;
+}
+}
